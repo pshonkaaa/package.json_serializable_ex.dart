@@ -1,0 +1,15 @@
+targets:
+  $default:
+    builders:
+      json_serializable_ex:
+        enabled: true
+
+builders:
+  json_serializable_ex:
+    target: ":lib"
+    import: "package:json_serializable_ex/external/Builder.dart"
+    builder_factories: ["generateExtension"]
+    build_extensions: { ".dart": [".g.dart"] }
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]

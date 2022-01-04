@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        // {
+        //     "name": "code_generator",
+        //     "request": "launch",
+        //     "type": "dart"
+        // },
+        {
+            "name": "code_generator",
+            // "cwd": "example/meal_app",
+            "request": "launch",
+            "program": ".dart_tool/build/entrypoint/build.dart",
+            "type": "dart",
+            "args": ["build", "--delete-conflicting-outputs"]
+        }       
+    ]
+}

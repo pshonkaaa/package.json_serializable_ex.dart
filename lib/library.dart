@@ -1,0 +1,1 @@
+export 'external/ExtensionGenerator.dart' show ExtensionGenerator;

@@ -1,0 +1,38 @@
+name: json_serializable_ex
+description: json_serializable_ex
+version: 0.0.1+1
+publish_to: none
+# homepage: https://www.example.com
+# https://www.raywenderlich.com/22180993-flutter-code-generation-getting-started#toc-anchor-016
+
+environment:
+  sdk: '>=2.15.0 <3.0.0'
+
+
+dependencies:
+  build: any
+  recase : any
+  source_gen: any
+  analyzer: any
+  true_core:
+    git:
+      url: https://github.com/TrueCollaboration/true_core.git
+  json_ex:
+    git:
+      url: https://github.com/TrueCollaboration/json_ex.git
+  json_annotation_ex:
+    git:
+      url: https://github.com/TrueCollaboration/json_annotation_ex.git
+
+dependency_overrides:
+  true_core:
+    path:  D:\.dev\projects\github\flutter\packages\true_core
+  json_ex:
+    path:  D:\.dev\projects\github\flutter\packages\json_ex
+  json_annotation_ex:
+    path:  D:\.dev\projects\github\flutter\packages\json_annotation_ex
+
+dev_dependencies:
+  build_runner: any
+  build_test: any
+  test: ^1.0.0
