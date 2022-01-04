@@ -24,14 +24,6 @@ dependencies:
     git:
       url: https://github.com/TrueCollaboration/json_annotation_ex.git
 
-dependency_overrides:
-  true_core:
-    path:  D:\.dev\projects\github\flutter\packages\true_core
-  json_ex:
-    path:  D:\.dev\projects\github\flutter\packages\json_ex
-  json_annotation_ex:
-    path:  D:\.dev\projects\github\flutter\packages\json_annotation_ex
-
 dev_dependencies:
   build_runner: any
   build_test: any
