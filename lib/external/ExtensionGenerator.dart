@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:developer';
 
 import 'package:analyzer/dart/constant/value.dart';
 import 'package:build/src/builder/build_step.dart';
@@ -8,7 +7,7 @@ import 'package:json_annotation_ex/library.dart';
 import 'package:json_serializable_ex/internal/ModelVisitor.dart';
 import 'package:recase/recase.dart';
 import 'package:source_gen/source_gen.dart';
-import 'package:true_core/core/library.dart';
+import 'package:true_core/library.dart';
 
 class ExtensionGenerator extends GeneratorForAnnotation<JsonSerializableEx> {
   @override

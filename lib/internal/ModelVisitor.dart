@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:analyzer/dart/constant/value.dart';
 import 'package:analyzer/dart/element/nullability_suffix.dart';
 import 'package:analyzer/dart/element/type.dart';
@@ -8,7 +6,7 @@ import 'package:analyzer/dart/element/element.dart';
 import 'package:json_annotation_ex/library.dart';
 import 'package:source_gen/source_gen.dart';
 import 'package:source_gen/src/type_checker.dart';
-import 'package:true_core/core/library.dart';
+import 'package:true_core/library.dart';
 
 
 class ModelVisitor extends SimpleElementVisitor<void> {
