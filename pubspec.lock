@@ -209,15 +209,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.0"
-  pshondation:
-    dependency: "direct main"
-    description:
-      path: "."
-      ref: HEAD
-      resolved-ref: cea8c35047443264471b09abd48422aa20ed9014
-      url: "https://github.com/pshonkaaa/package.pshondation.dart.git"
-    source: git
-    version: "0.1.0"
   frontend_server_client:
     dependency: transitive
     description:
@@ -303,10 +294,10 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "450f14d9a2e8caa774ef65a9912461b9310ef6e2"
+      resolved-ref: "276c832f14ddb124f1fc6dfacb80144fadccf508"
       url: "https://github.com/pshonkaaa/package.json_annotation_ex.dart.git"
     source: git
-    version: "0.0.2"
+    version: "0.0.3"
   json_ex:
     dependency: "direct main"
     description:
@@ -388,6 +379,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.5.1"
+  pshondation:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: d10cf60a2e3adc12a949400e0662db5bddecc475
+      url: "https://github.com/pshonkaaa/package.pshondation.dart.git"
+    source: git
+    version: "0.1.0"
   pub_semver:
     dependency: transitive
     description:
