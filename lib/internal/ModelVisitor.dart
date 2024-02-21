@@ -6,7 +6,7 @@ import 'package:analyzer/dart/element/element.dart';
 import 'package:json_annotation_ex/library.dart';
 import 'package:source_gen/source_gen.dart';
 import 'package:source_gen/src/type_checker.dart';
-import 'package:true_core/library.dart';
+import 'package:foundation/library.dart';
 
 
 class ModelVisitor extends SimpleElementVisitor<void> {

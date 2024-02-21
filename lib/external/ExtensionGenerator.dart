@@ -7,7 +7,7 @@ import 'package:json_annotation_ex/library.dart';
 import 'package:json_serializable_ex/internal/ModelVisitor.dart';
 import 'package:recase/recase.dart';
 import 'package:source_gen/source_gen.dart';
-import 'package:true_core/library.dart';
+import 'package:foundation/library.dart';
 
 class ExtensionGenerator extends GeneratorForAnnotation<JsonSerializableEx> {
   @override
@@ -334,6 +334,10 @@ class ExtensionGenerator extends GeneratorForAnnotation<JsonSerializableEx> {
         return declaredName.paramCase;
       case FieldRename.pascal:
         return declaredName.pascalCase;
+      case FieldRename.camel:
+        return declaredName.camelCase;
+      case FieldRename.constant:
+        return declaredName.constantCase;
     }
   }
 
