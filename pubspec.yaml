@@ -14,9 +14,9 @@ dependencies:
   recase : any
   source_gen: any
   analyzer: 3.2.0
-  foundation:
+  pshondation:
     git:
-      url: https://github.com/pshonkaaa/package.foundation.dart.git
+      url: https://github.com/pshonkaaa/package.pshondation.dart.git
   json_ex:
     git:
       url: https://github.com/pshonkaaa/package.json_ex.dart.git

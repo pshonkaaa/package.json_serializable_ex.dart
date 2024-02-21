@@ -209,13 +209,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.0"
-  foundation:
+  pshondation:
     dependency: "direct main"
     description:
       path: "."
       ref: HEAD
       resolved-ref: cea8c35047443264471b09abd48422aa20ed9014
-      url: "https://github.com/pshonkaaa/package.foundation.dart.git"
+      url: "https://github.com/pshonkaaa/package.pshondation.dart.git"
     source: git
     version: "0.1.0"
   frontend_server_client:
